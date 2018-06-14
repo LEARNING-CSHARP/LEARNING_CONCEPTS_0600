@@ -4,32 +4,32 @@
 	{
 		static void Main(string[] args)
 		{
-			Person oPerson = new Person();
+			Person person = new Person();
 
-			//oPerson.Age = 20;
-			//oPerson.FullName = "Ali Reza Alavi";
+			//person.Age = 20;
+			//person.FullName = "Ali Reza Alavi";
 
-			//oPerson.ShowInfo();
+			//person.ShowInfo();
 
-			//Circle oCircle = new Circle();
+			//Circle circle = new Circle();
 
-			//oCircle.BorderWidth = 2;
+			//circle.BorderWidth = 2;
 
-			//Circle oCircle = new Circle(2, 3, 10);
+			//Circle circle = new Circle(2, 3, 10);
 
-			//Circle oCircle = new Circle(x: 2, y: 3, radius: 10); // OK
+			//Circle circle = new Circle(x: 2, y: 3, radius: 10); // OK
 
-			//Circle oCircle = new Circle(2, y: 3, radius: 10); // OK
+			//Circle circle = new Circle(2, y: 3, radius: 10); // OK
 
-			//Circle oCircle = new Circle(2, y: 3, 10); // Error
+			//Circle circle = new Circle(2, y: 3, 10); // Error
 
-			//Circle oCircle = new Circle(radius: 10, x: 2, y: 3); // OK
+			//Circle circle = new Circle(radius: 10, x: 2, y: 3); // OK
 
-			//Circle oCircle = new Circle(x: 2, y: 3, radius: 10);
+			//Circle circle = new Circle(x: 2, y: 3, radius: 10);
 
-			//Person oPerson = new Person() { Age = 20, FullName = "Ali Reza Alavi" };
+			//Person person = new Person() { Age = 20, FullName = "Ali Reza Alavi" };
 
-			//oPerson.ShowInfo();
+			//person.ShowInfo();
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

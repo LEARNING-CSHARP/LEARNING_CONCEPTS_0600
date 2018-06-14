@@ -11,6 +11,8 @@
 	//	}
 	//}
 
+
+
 	//public class Person
 	//{
 	//	/// <summary>
@@ -30,6 +32,8 @@
 	//	}
 	//}
 
+
+
 	//public class Person
 	//{
 	//	public Person()
@@ -39,7 +43,6 @@
 	//	/// <summary>
 	//	/// این کار حرفه‌ای نیست
 	//	/// </summary>
-	//	//public int Age;
 	//	public int Age = 20;
 
 	//	/// <summary>
@@ -53,13 +56,15 @@
 	//	}
 	//}
 
+
+
 	public class Person
 	{
 		public Person()
 		{
 			Age = 20;
 
-			//FullName = "";
+			//FullName = ""; // Null String
 			FullName = string.Empty;
 		}
 
@@ -71,6 +76,8 @@
 			System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
 		}
 	}
+
+
 
 	//public class Person
 	//{
@@ -87,6 +94,8 @@
 	//		System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
 	//	}
 	//}
+
+
 
 	/// <summary>
 	/// نگاه ذیل دیگر عرف نیست
@@ -118,7 +127,7 @@
 
 	//	public void ShowInfo()
 	//	{
-	//		System.Console.WriteLine("I'm {0} and {1} years old.", FullName, Age);
+	//		System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
 	//	}
 	//}
 }

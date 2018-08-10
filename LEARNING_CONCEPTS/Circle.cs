@@ -23,6 +23,8 @@
 //	}
 //}
 
+// Note: XML Documentation
+
 namespace LEARNING_CONCEPTS
 {
 	/// <summary>

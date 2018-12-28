@@ -5,7 +5,7 @@
 	//	public int Age;
 	//	public string FullName;
 
-	//	public void ShowInfo()
+	//	public void ShowInformation()
 	//	{
 	//		System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
 	//	}
@@ -26,7 +26,7 @@
 	//	public int Age;
 	//	public string FullName;
 
-	//	public void ShowInfo()
+	//	public void ShowInformation()
 	//	{
 	//		System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
 	//	}
@@ -50,7 +50,7 @@
 	//	/// </summary>
 	//	public string FullName = "";
 
-	//	public void ShowInfo()
+	//	public void ShowInformation()
 	//	{
 	//		System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
 	//	}
@@ -64,14 +64,14 @@
 		{
 			Age = 20;
 
-			//FullName = ""; // Null String
 			FullName = string.Empty;
+			//FullName = ""; // Null String
 		}
 
 		public int Age;
 		public string FullName;
 
-		public void ShowInfo()
+		public void ShowInformation()
 		{
 			System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
 		}
@@ -89,7 +89,7 @@
 	//	public int Age;
 	//	public string FullName;
 
-	//	public void ShowInfo()
+	//	public void ShowInformation()
 	//	{
 	//		System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
 	//	}
@@ -125,7 +125,7 @@
 	//	public int Age;
 	//	public string FullName;
 
-	//	public void ShowInfo()
+	//	public void ShowInformation()
 	//	{
 	//		System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
 	//	}

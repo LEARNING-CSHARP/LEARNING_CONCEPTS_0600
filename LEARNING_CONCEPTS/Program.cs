@@ -8,12 +8,52 @@
 
 		internal static void Main(string[] args)
 		{
-			Person person = new Person();
+			// **************************************************
+			//Person person = new Person();
 
 			//person.Age = 20;
 			//person.FullName = "Ali Reza Alavi";
+			// **************************************************
 
-			//person.ShowInfo();
+			// **************************************************
+			//Person person = new Person() { FullName = "Ali Reza Alavi", Age = 20 };
+			// **************************************************
+
+			// **************************************************
+			//Person person =
+			//	new Person()
+			//	{
+			//		FullName = "Ali Reza Alavi",
+			//		Age = 20
+			//	};
+			// **************************************************
+
+			// **************************************************
+			//Person person =
+			//	new Person
+			//	{
+			//		FullName = "Ali Reza Alavi",
+			//		Age = 20
+			//	};
+			// **************************************************
+
+			// **************************************************
+			//Person person =
+			//	new Person
+			//	{
+			//		FullName = "Ali Reza Alavi",
+			//		Age = 20,
+			//	};
+			// **************************************************
+
+			// **************************************************
+			Person person =
+				new Person
+				{
+					Age = 20,
+					FullName = "Ali Reza Alavi",
+				};
+			// **************************************************
 
 			//Circle circle = new Circle();
 
@@ -31,11 +71,7 @@
 
 			//Circle circle = new Circle(x: 2, y: 3, radius: 10);
 
-			//Person person = new Person() { Age = 20, FullName = "Ali Reza Alavi" };
-
-			//person.ShowInfo();
-
-			System.Console.Write("Press [ENTER] To Exit...");
+			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}

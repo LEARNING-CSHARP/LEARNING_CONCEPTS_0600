@@ -123,7 +123,9 @@
 	//	}
 
 	//	public int Age;
+	//	public int Weight;
 	//	public string FullName;
+	//	public string FatherName;
 
 	//	public void ShowInformation()
 	//	{

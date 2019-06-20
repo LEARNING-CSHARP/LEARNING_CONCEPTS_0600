@@ -21,6 +21,11 @@
 
 			// **************************************************
 			//Person person =
+			//	new Person() { Age = 20, FullName = "Ali Reza Alavi" };
+			// **************************************************
+
+			// **************************************************
+			//Person person =
 			//	new Person()
 			//	{
 			//		FullName = "Ali Reza Alavi",
@@ -55,21 +60,15 @@
 				};
 			// **************************************************
 
-			//Circle circle = new Circle();
+			// **************************************************
+			//Circle circle = new Circle(); // Compile Error!
 
 			//circle.BorderWidth = 2;
 
 			//Circle circle = new Circle(2, 3, 10);
 
-			//Circle circle = new Circle(x: 2, y: 3, radius: 10); // OK
-
-			//Circle circle = new Circle(2, y: 3, radius: 10); // OK
-
-			//Circle circle = new Circle(2, y: 3, 10); // Error
-
-			//Circle circle = new Circle(radius: 10, x: 2, y: 3); // OK
-
 			//Circle circle = new Circle(x: 2, y: 3, radius: 10);
+			// **************************************************
 
 			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();

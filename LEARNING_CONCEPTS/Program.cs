@@ -65,9 +65,15 @@
 
 			//circle.BorderWidth = 2;
 
-			//Circle circle = new Circle(2, 3, 10);
+			Circle circle1 = new Circle(2, 3, 10);
 
-			//Circle circle = new Circle(x: 2, y: 3, radius: 10);
+			Circle circle2 = new Circle(x: 2, y: 3, radius: 10);
+
+			Circle circle3 =
+				new Circle(x: 2, y: 3, radius: 10)
+				{
+					BorderWidth = 5,
+				};
 			// **************************************************
 
 			System.Console.Write("Press [ENTER] To Exit... ");

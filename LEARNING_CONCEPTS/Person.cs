@@ -58,24 +58,24 @@
 
 
 
-	public class Person
-	{
-		public Person()
-		{
-			Age = 20;
+	//public class Person
+	//{
+	//	public Person()
+	//	{
+	//		Age = 20;
 
-			FullName = string.Empty;
-			//FullName = ""; // Null String
-		}
+	//		FullName = string.Empty;
+	//		//FullName = ""; // Null String
+	//	}
 
-		public int Age;
-		public string FullName;
+	//	public int Age;
+	//	public string FullName;
 
-		public void ShowInformation()
-		{
-			System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
-		}
-	}
+	//	public void ShowInformation()
+	//	{
+	//		System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
+	//	}
+	//}
 
 
 
@@ -132,4 +132,37 @@
 	//		System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
 	//	}
 	//}
+
+	/// <summary>
+	/// کلاس شخص
+	/// </summary>
+	public class Person
+	{
+		/// <summary>
+		/// سازنده پیش‌فرض کلاس
+		/// </summary>
+		public Person()
+		{
+			Age = 20;
+			FullName = string.Empty;
+		}
+
+		/// <summary>
+		/// فیلد سن شخص
+		/// </summary>
+		public int Age;
+
+		/// <summary>
+		/// فیلد نام و نام خانوادگی شخص
+		/// </summary>
+		public string FullName;
+
+		/// <summary>
+		/// نمایش اطلاعات شخص
+		/// </summary>
+		public void ShowInformation()
+		{
+			System.Console.WriteLine($"Full Name: { FullName }, Age: { Age }");
+		}
+	}
 }

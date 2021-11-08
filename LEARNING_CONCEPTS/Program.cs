@@ -6,7 +6,7 @@
 		{
 		}
 
-		internal static void Main(string[] args)
+		internal static void Main()
 		{
 			// **************************************************
 			//Person person = new Person();
